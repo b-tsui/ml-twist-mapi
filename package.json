@@ -1,0 +1,26 @@
+{
+  "name": "hooks-e-commerce",
+  "version": "6.36.0",
+  "private": true,
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "algoliasearch": "4.11.0",
+    "instantsearch.js": "4.47.0",
+    "react": "18.1.0",
+    "react-compound-slider": "3.4.0",
+    "react-dom": "18.1.0",
+    "react-instantsearch-hooks-web": "6.36.0"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "2.6.2",
+    "@parcel/transformer-webmanifest": "2.6.2",
+    "@types/node": "^18.11.5",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "parcel": "2.6.2",
+    "process": "^0.11.10"
+  }
+}
